@@ -21,7 +21,7 @@ report_data = [
     ("other_detail", ""),  # 其他情况说明
 ]
 cross_campus_data = [
-    ("return_college[]", "东校区"),  # 往返校区
+ 
     ("return_college[]", "西校区"),  # 往返校区
     ("return_college[]", "中校区"),  # 往返校区
     ("reason", "上课"),  # 原因
