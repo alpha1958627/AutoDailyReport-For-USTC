@@ -50,7 +50,7 @@ if __name__ == "__main__":
             break
         print("Retry...")
         count = count - 1
-    if count != 0:
+    if count !=  0:
         exit(0)
     else:
         exit(-1)
