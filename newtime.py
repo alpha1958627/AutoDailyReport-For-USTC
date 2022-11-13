@@ -15,5 +15,5 @@ font = ImageFont.truetype("HarmonyOS_Sans_Regular.ttf", bbox[4])
 dr.text((0, 0), time.strftime("%Y.%m.%d %H:%M:%S", time.localtime(time.time()+8*3600-np.random.randint(30, 60))), color,
         font)
 img[bbox[1]:bbox[3], bbox[0]:bbox[2], :] = cv2.resize(np.array(im), shp)
-cv2.imwrite("xcm.jpg", img)
+cv2.imwrite("xcm.jpg" , img)
 
